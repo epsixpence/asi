@@ -1,1 +1,141 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV - [Teu Nome]</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <h1>Curriculum Vitae</h1>
+        <p class="subtitle">Formato conforme Anexo-1</p>
+      </div>
+      <nav class="nav">
+        <a class="nav-link" href="index.html">Voltar ao Início</a>
+        <a class="nav-link" href="cv.html" aria-current="page">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card cv-header">
+      <div class="cv-header-left">
+        <h2>I – DADOS PESSOAIS</h2>
+        <p class="muted">Preencha com os seus dados reais.</p>
+      </div>
+
+      <div class="cv-photo-wrap">
+        <img class="cv-photo" src="img/foto.jpg" alt="Fotografia recente de [Teu Nome]" />
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="cv-grid">
+        <div><strong>1. NOME:</strong> [Teu Nome]</div>
+        <div><strong>2. ENDEREÇO:</strong> [Rua/Bairro]</div>
+        <div><strong>3. CIDADE:</strong> [Cidade]</div>
+        <div><strong>4. DISTRITO:</strong> [Distrito]</div>
+        <div><strong>5. TELEFONE:</strong> [Telefone]</div>
+        <div><strong>6. FAX:</strong> [Se aplicável]</div>
+        <div><strong>7. E-MAIL:</strong> [Email]</div>
+        <div><strong>8. ESTADO CIVIL:</strong> [Estado civil]</div>
+        <div><strong>9. DATA DE NASCIMENTO:</strong> [dd/mm/aaaa]</div>
+        <div><strong>10. NATURALIDADE:</strong> [Naturalidade]</div>
+        <div><strong>11. NACIONALIDADE:</strong> [Nacionalidade]</div>
+        <div><strong>12. SEXO:</strong> [Sexo]</div>
+        <div><strong>13. PROFISSÃO:</strong> [Profissão]</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>II – FORMAÇÃO ACADÊMICA</h2>
+
+      <h3>1. CURSOS DE FORMAÇÃO</h3>
+      <div class="cv-block">
+        <p><strong>CURSO:</strong> [Curso 1]</p>
+        <p><strong>INSTITUIÇÃO:</strong> [Instituição 1]</p>
+        <p><strong>PERÍODO:</strong> [Ano–Ano]</p>
+        <hr />
+        <p><strong>CURSO:</strong> [Curso 2]</p>
+        <p><strong>INSTITUIÇÃO:</strong> [Instituição 2]</p>
+        <p><strong>PERÍODO:</strong> [Ano–Ano]</p>
+      </div>
+
+      <h3>2. ESPECIALIZAÇÃO OU APERFEIÇOAMENTO</h3>
+      <div class="cv-block">
+        <p><strong>CURSO:</strong> [Especialização 1]</p>
+        <p><strong>INSTITUIÇÃO:</strong> [Instituição]</p>
+        <p><strong>PERÍODO:</strong> [Ano–Ano]</p>
+        <p><strong>CARGA HORÁRIA:</strong> [Horas]</p>
+        <hr />
+        <p><strong>CURSO:</strong> [Especialização 2]</p>
+        <p><strong>INSTITUIÇÃO:</strong> [Instituição]</p>
+        <p><strong>PERÍODO:</strong> [Ano–Ano]</p>
+        <p><strong>CARGA HORÁRIA:</strong> [Horas]</p>
+      </div>
+
+      <h3>4. CONHECIMENTO DE IDIOMAS</h3>
+      <p>[Ex.: Português (nativo), Inglês (intermédio), Francês (básico)]</p>
+
+      <h3>5. CONHECIMENTO DE INFORMÁTICA</h3>
+      <div class="skills-grid">
+        <span>WORD ( )</span>
+        <span>EXCEL ( )</span>
+        <span>WINDOWS ( )</span>
+        <span>ACCESS ( )</span>
+        <span>POWERPOINT ( )</span>
+        <span>OUTLOOK ( )</span>
+        <span>INTERNET ( )</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>III – REGISTO – EXPERIÊNCIA PROFISSIONAL</h2>
+      <p class="muted">
+        Comece pelo cargo atual, em ordem inversa. Seja objetivo e mostre resultados.
+      </p>
+
+      <div class="cv-block">
+        <p><strong>PERÍODO:</strong> [mm/aaaa – mm/aaaa]</p>
+        <p><strong>CARGO(S) E FUNÇÃO(S):</strong> [Cargo]</p>
+        <p><strong>EMPREGADOR:</strong> [Empresa]</p>
+        <p><strong>DESCRIÇÃO DAS SUAS ATRIBUIÇÕES / EXPERIÊNCIA ADQUIRIDA:</strong></p>
+        <ul>
+          <li>[Atividade/resultado 1]</li>
+          <li>[Atividade/resultado 2]</li>
+          <li>[Atividade/resultado 3]</li>
+        </ul>
+
+        <hr />
+
+        <p><strong>PERÍODO:</strong> [mm/aaaa – mm/aaaa]</p>
+        <p><strong>CARGO(S) E FUNÇÃO(S):</strong> [Cargo]</p>
+        <p><strong>EMPREGADOR:</strong> [Empresa]</p>
+        <p><strong>DESCRIÇÃO DAS SUAS ATRIBUIÇÕES / EXPERIÊNCIA ADQUIRIDA:</strong></p>
+        <ul>
+          <li>[Atividade/resultado 1]</li>
+          <li>[Atividade/resultado 2]</li>
+        </ul>
+      </div>
+
+      <p>
+        <a class="btn secondary" href="index.html">Voltar à página principal</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Última atualização: <span id="lastUpdate"></span></small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("lastUpdate").textContent = new Date().toLocaleDateString("pt-PT");
+  </script>
+</body>
+</html>
 
