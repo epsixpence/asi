@@ -1,1 +1,94 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sites Preferidos - [Teu Nome]</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <h1>Sites Preferidos</h1>
+        <p class="subtitle">
+          Seleção de recursos que uso com frequência, com descrição e língua principal.
+        </p>
+      </div>
+      <nav class="nav">
+        <a class="nav-link" href="index.html" aria-current="page">Início</a>
+        <a class="nav-link" href="cv.html">Meu CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Hiperligações (3+)</h2>
+
+      <div class="links-grid">
+        <article class="link-item">
+          <h3>
+            <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
+              MDN Web Docs
+            </a>
+          </h3>
+          <p class="muted"><strong>Língua:</strong> Inglês</p>
+          <p>
+            Documentação técnica de referência para HTML, CSS e JavaScript, com exemplos e boas práticas.
+          </p>
+        </article>
+
+        <article class="link-item">
+          <h3>
+            <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+              W3Schools
+            </a>
+          </h3>
+          <p class="muted"><strong>Língua:</strong> Inglês</p>
+          <p>
+            Tutoriais rápidos e exercícios práticos para aprender fundamentos de desenvolvimento web.
+          </p>
+        </article>
+
+        <article class="link-item">
+          <h3>
+            <a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">
+              Wikipedia
+            </a>
+          </h3>
+          <p class="muted"><strong>Língua:</strong> Multilíngue</p>
+          <p>
+            Enciclopédia colaborativa com conteúdos em várias línguas para pesquisa geral e introduções a temas.
+          </p>
+        </article>
+      </div>
+
+      <div class="note">
+        <p>
+          Observação: os links externos abrem numa nova aba para não “prender” o utilizador fora do site.
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Acesso ao CV</h2>
+      <p>
+        Clique para ver o meu currículo no formato solicitado:
+        <a class="btn" href="cv.html">Abrir CV</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> [Teu Nome] — Trabalho prático de Web</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
